@@ -57,11 +57,11 @@ Use the `www.` address exactly as written.
 ## What it sends and keeps
 
 - The plugin connects only to `https://www.iprwise.com/mcp`. It contains no hooks, no local server and no programs.
-- The text of your questions and tool arguments is not logged. For each tool call the server log keeps the tool name, the duration, the size of the answer, an error message if any, the client application's name and a shortened account identifier.
-- IPRwise keeps a daily call counter for each account (total calls, calls per tool, calls per client application).
-- Codes and tokens are stored only as SHA-256 hashes. Authorization codes expire after 5 minutes, access tokens after 1 hour, refresh tokens after 30 days.
+- The text of your questions and tool arguments is not stored. For each tool call the server log keeps the tool name, the duration, the size of the answer, whether an error occurred, the client application's name and a shortened account identifier.
+- IPRwise keeps a daily call counter for each account (total calls, calls per tool, calls per client application) and deletes it 12 months after the day it covers.
+- Codes and tokens are stored only as SHA-256 hashes. Authorization codes expire after 5 minutes, access tokens after 1 hour, refresh tokens after 30 days; expired records are deleted within 30 days. Application registrations are deleted 12 months after their last use.
 - Limits: 300 tool calls a day per account, of which up to 60 `find_attorneys` calls. They reset at 00:00 UTC.
-- Privacy policy: https://www.iprwise.com/privacy · Terms: https://www.iprwise.com/terms
+- Privacy policy (section 4, "AI assistants connected to your account"): https://www.iprwise.com/privacy · Terms: https://www.iprwise.com/terms
 
 ## Check the connection
 
@@ -75,7 +75,8 @@ Bu eklenti Claude'u IPRwise'a (dünya genelindeki fikri mülkiyet vekilleri ağ�
 
 - **Kurulum (claude.ai ve masaüstü):** Customize → Plugins → Add → Add marketplace → `asimokat/iprwise-claude-eklenti` → **iprwise** eklentisini kur → Connectors sekmesinde bağlan → açılan iprwise.com sayfasında IPRwise hesabınla gir ve **İzin ver**.
 - **Ücretsiz hesap yeter.** Her kullanıcı kendi hesabıyla bağlanır.
-- **Aletler yalnız okur;** IPRwise'a hiçbir şey yazmaz. Soru metni günlüğe yazılmaz.
+- **Aletler yalnız okur;** IPRwise'a hiçbir şey yazmaz. Soru metni saklanmaz.
+- **Saklama:** günlük sayaç 12 ay sonra, süresi dolan bağlantı kayıtları 30 gün içinde silinir. Ayrıntı: [gizlilik metni, 4. bölüm](https://www.iprwise.com/kvkk).
 - **Sınır:** hesap başına günde 300 çağrı (bunun en çok 60'ı vekil araması).
 
 ## License
