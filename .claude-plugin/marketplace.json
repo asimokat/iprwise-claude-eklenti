@@ -1,0 +1,15 @@
+{
+  "name": "iprwise",
+  "owner": {
+    "name": "IPRwise",
+    "url": "https://www.iprwise.com"
+  },
+  "description": "IPRwise plugins for Claude.",
+  "plugins": [
+    {
+      "name": "iprwise",
+      "source": "./",
+      "description": "Country IP facts with official sources, international filing routes, the IPRwise IP attorney directory, IP office news and Nice 2027 checks, with skills for instructing a foreign associate and planning international filings."
+    }
+  ]
+}

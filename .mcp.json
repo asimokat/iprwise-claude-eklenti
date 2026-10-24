@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iprwise": {
+      "type": "http",
+      "url": "https://www.iprwise.com/mcp"
+    }
+  }
+}

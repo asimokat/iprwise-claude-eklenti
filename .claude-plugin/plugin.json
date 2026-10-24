@@ -1,0 +1,19 @@
+{
+  "name": "iprwise",
+  "displayName": "IPRwise",
+  "version": "0.1.0",
+  "description": "Connects Claude to IPRwise, the global network of IP attorneys: country IP facts with official sources and verbatim quotes, international filing routes (Paris, PCT, Madrid, Hague, EU, EPO, EAPO, OAPI, ARIPO), the IPRwise attorney directory, IP office news and Nice 2027 checks. Includes two skills: choosing and instructing a foreign associate, and planning international filings.",
+  "author": {
+    "name": "IPRwise",
+    "url": "https://www.iprwise.com"
+  },
+  "homepage": "https://www.iprwise.com",
+  "repository": "https://github.com/asimokat/iprwise-claude-eklenti",
+  "license": "MIT",
+  "keywords": ["intellectual property", "trademark", "patent", "industrial design", "IP attorney", "foreign associate", "Madrid Protocol", "PCT", "Nice classification"],
+  "icon": "./assets/iprwise-512.png",
+  "documentationUrl": "https://www.iprwise.com",
+  "supportUrl": "https://www.iprwise.com/legal?doc=faq",
+  "privacyPolicyUrl": "https://www.iprwise.com/privacy",
+  "termsOfServiceUrl": "https://www.iprwise.com/terms"
+}
