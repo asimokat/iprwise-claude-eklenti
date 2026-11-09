@@ -45,6 +45,10 @@ claude plugin install iprwise@iprwise
 
 Then type `/mcp` in a session, choose `plugin:iprwise:iprwise` and sign in.
 
+### ChatGPT
+
+The same connector is published as a ChatGPT plugin: [IPRwise on ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6add4fdcfe108191b262e938b47ad7a1). Open the page, click **Install**, and sign in with your IPRwise account when asked. Two skills (filing strategy, foreign associate) and a get-started skill come with it.
+
 ### Connector only (any MCP client)
 
 - Endpoint: `https://www.iprwise.com/mcp` (Streamable HTTP, JSON responses)
@@ -74,6 +78,7 @@ The tools return reference information, not legal advice. Rules and fees change;
 Bu eklenti Claude'u IPRwise'a (dünya genelindeki fikri mülkiyet vekilleri ağı) bağlar. Cevabı Claude yazar; IPRwise kaynağıyla doğrulanmış veriyi verir: resmî kaynaktan birebir alıntılı ülke bilgileri, uluslararası başvuru yolları, IPRwise vekil rehberi, IP ofisi duyuruları ve Nice 2027 değişiklikleri.
 
 - **Kurulum (claude.ai ve masaüstü):** Customize → Plugins → Add → Add marketplace → `asimokat/iprwise-claude-eklenti` → **iprwise** eklentisini kur → Connectors sekmesinde bağlan → açılan iprwise.com sayfasında IPRwise hesabınla gir ve **İzin ver**.
+- **ChatGPT:** aynı bağlayıcı ChatGPT eklentisi olarak yayında: [IPRwise on ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6add4fdcfe108191b262e938b47ad7a1). Sayfada **Eklentiyi kur**, sonra IPRwise hesabınla gir.
 - **Ücretsiz hesap yeter.** Her kullanıcı kendi hesabıyla bağlanır.
 - **Aletler yalnız okur;** IPRwise'a hiçbir şey yazmaz. Soru metni saklanmaz.
 - **Saklama:** günlük sayaç 12 ay sonra, süresi dolan bağlantı kayıtları 30 gün içinde silinir. Ayrıntı: [gizlilik metni, 4. bölüm](https://www.iprwise.com/kvkk).
