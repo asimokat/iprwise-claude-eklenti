@@ -1,5 +1,7 @@
 # IPRwise: Claude plugin
 
+[![mcptry](https://mcptry.com/badge/com.iprwise/mcp)](https://mcptry.com/servers/com.iprwise/mcp)
+
 ![IPRwise](assets/iprwise-512.png)
 
 This plugin connects Claude to [IPRwise](https://www.iprwise.com) ([iprwise.com/ai](https://www.iprwise.com/ai)), the global network of IP attorneys. Claude writes the answer; IPRwise supplies checked reference data with its sources: country IP facts for 191 jurisdictions quoted from official sources, international filing routes, statutory deadline and official trademark fee calculators, the IPRwise attorney directory, open cross-border IP requests, IP office announcements, Nice Classification 2027 checks, and WIPO Madrid, Hague and PCT data.
