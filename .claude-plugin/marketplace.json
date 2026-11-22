@@ -8,8 +8,9 @@
   "plugins": [
     {
       "name": "iprwise",
+      "version": "1.2.0",
       "source": "./",
-      "description": "Country IP facts with official sources, international filing routes, the IPRwise IP attorney directory, IP office news and Nice 2027 checks, with skills for instructing a foreign associate and planning international filings."
+      "description": "Country IP facts for 191 jurisdictions with official sources, international filing routes, statutory deadlines, official trademark fees, WIPO Madrid/Hague/PCT intelligence, 25,000+ IP attorneys, open cross-border IP tasks, IP office news and Nice 2027 checks (25 read-only tools), with four skills for foreign associates, filing strategy, refusal triage and IP watch."
     }
   ]
 }

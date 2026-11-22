@@ -1,18 +1,30 @@
 {
   "name": "iprwise",
   "displayName": "IPRwise",
-  "version": "0.1.0",
-  "description": "Connects Claude to IPRwise, the global network of IP attorneys: country IP facts with official sources and verbatim quotes, international filing routes (Paris, PCT, Madrid, Hague, EU, EPO, EAPO, OAPI, ARIPO), the IPRwise attorney directory, IP office news and Nice 2027 checks. Includes two skills: choosing and instructing a foreign associate, and planning international filings.",
+  "version": "1.2.0",
+  "description": "Connects Claude to IPRwise, the global network of IP attorneys (25 read-only tools): country IP facts for 191 jurisdictions with official sources and verbatim quotes, international filing routes (Paris, PCT, Madrid, Hague, EUIPO, Benelux, EPO, EAPO, OAPI, ARIPO), statutory deadlines, official trademark filing fees, WIPO Madrid, Hague and PCT data, 25,000+ IP attorneys, open cross-border IP tasks, IP office announcements, Nice 2027 checks and member office/watch tools. Includes four skills: foreign associate instruction, international filing strategy, provisional refusal triage, and IP watch & practice digest.",
   "author": {
     "name": "IPRwise",
     "url": "https://www.iprwise.com"
   },
-  "homepage": "https://www.iprwise.com",
+  "homepage": "https://www.iprwise.com/ai",
   "repository": "https://github.com/asimokat/iprwise-claude-eklenti",
   "license": "MIT",
-  "keywords": ["intellectual property", "trademark", "patent", "industrial design", "IP attorney", "foreign associate", "Madrid Protocol", "PCT", "Nice classification"],
+  "keywords": [
+    "intellectual property",
+    "trademark",
+    "patent",
+    "industrial design",
+    "IP attorney",
+    "foreign associate",
+    "Madrid Protocol",
+    "Hague System",
+    "PCT",
+    "WIPO",
+    "Nice classification"
+  ],
   "icon": "./assets/iprwise-512.png",
-  "documentationUrl": "https://www.iprwise.com",
+  "documentationUrl": "https://www.iprwise.com/ai",
   "supportUrl": "https://www.iprwise.com/legal?doc=faq",
   "privacyPolicyUrl": "https://www.iprwise.com/privacy",
   "termsOfServiceUrl": "https://www.iprwise.com/terms"
