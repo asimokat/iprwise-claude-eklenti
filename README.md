@@ -1,5 +1,6 @@
 # IPRwise: Claude plugin
 
+[![IPRwise MCP connector](https://glama.ai/mcp/connectors/com.iprwise/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.iprwise/mcp)
 [![mcptry](https://mcptry.com/badge/com.iprwise/mcp)](https://mcptry.com/servers/com.iprwise/mcp)
 
 ![IPRwise](assets/iprwise-512.png)
